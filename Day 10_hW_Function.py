@@ -11,6 +11,8 @@ f = int ( input ("Enter any integer to calculate its factorial "))
 value = factorial(f)
 
 print("Factorial of {0} is {1}".format(f, value))
+print()
+
 
 
 
