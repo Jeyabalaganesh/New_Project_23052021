@@ -73,5 +73,3 @@ if __name__ == "__main__":
     print(jb._current_time())
     help(Account)
 
-
-
