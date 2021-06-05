@@ -1,5 +1,4 @@
 import datetime
-
 import pytz
 
 
@@ -64,7 +63,6 @@ if __name__ == "__main__":
     # div.show_balance("My balance is ")
     # jb.show_balance("My balance is ")
     # jb.withdraw(5000)
-
     jb.transaction_history()
     jb.show_balance("My balance is ")
     print(jb.transaction_list)
@@ -72,4 +70,3 @@ if __name__ == "__main__":
     print(jb.deposit.__doc__)
     print(jb._current_time())
     help(Account)
-
