@@ -22,7 +22,7 @@ class Student:
         self.student_degree = ""
 
     def get_student(self):
-        print("The College name of the student:{} and Max degree:{}".format(self.student_college, self.student_degree))
+        print("The College name of the student:{0} and Max degree:{1}".format(self.student_college, self.student_degree[0:10]))
 
     def set_student(self):
         self.student_college = str(input("Enter the student's college name "))
@@ -38,7 +38,7 @@ class Manager(Employee, Student):
         self.due_amount = 0
 
     def get_manager(self):
-        print("The Manager position in the company:{} and Due amount:{}".format(self.manager_position, self.due_amount))
+        print("The Manager position in the company:{0} and Due amount:{1}".format(self.manager_position, self.due_amount))
 
     def set_manager(self):
         self.manager_position = str(input("Enter position of the manager "))
@@ -71,5 +71,4 @@ l1.set_employee()
 m1.set_manager()
 s1.set_scientist()
 s1.set_student()
-
 
