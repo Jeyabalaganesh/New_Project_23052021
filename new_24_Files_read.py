@@ -32,3 +32,10 @@ with open("Compre.txt", "r") as new_file:
     print(lines)
     for line in lines:
         print(line, end="")
+
+# with open("C:\Users\Jeyabalaganesh\Desktop\Compre.txt", "r") as new_file:
+#     lines = new_file.readlines()
+#
+#     print(lines)
+#     for line in lines:
+#         print(line, end="")
